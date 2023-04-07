@@ -88,36 +88,7 @@ console.log(pay)
     $("#list").html(html)
     $("#qrPrint").attr('src', `https://promptpay.io/0817410181/${amountTax.toFixed(2)}`);
 
-    $("#subtotal").html(html2).promise().done(()=>{
-        // window.print()
-        // let a = [{id: idRecive}]
-        // a.push(list)
-        // let obj = a
-        // console.log(obj)
-
-        // const formData = new FormData();
-        // formData.append('objs', JSON.stringify(obj))
-
-        // // axios Request ส่งข้อมูลไปชีต
-
-        // let config = {
-        //     method: 'post',
-        //     maxBodyLength: Infinity,
-        //     url: 'https://script.google.com/macros/s/AKfycbx6pc8rSkEK32v3oA3in6vjyTH8U7nFEbqM0-mA__zzlvw_So2Z0r2JqFoKmazUPDy1/exec?type=2',
-        //     headers: { },
-        //     data : formData
-        // };
-
-        // axios.request(config)
-        // .then((response) => {
-        //     console.log(JSON.stringify(response.data));
-        //     menu = response.data
-            
-        // })
-        // .catch((error) => {
-        //     console.log(error);
-        // });
-    })
+    $("#subtotal").html(html2).promise().done(()=>{})
 })
 
 function numberWithCommas(x) {
