@@ -1,6 +1,9 @@
 # POS_SYSTEM
 ทำระบบหน้าร้านค้า ออกใบเสร็จรับเงินได้
 
+sheets 
+https://docs.google.com/spreadsheets/d/1OEkfIcTX_9jQ4MPj8VtECoaoYev2t3EFYRupbQC-t4U/edit#gid=1082960464
+
 https://www.postman.com/
 
 จุดแก้ไขใน Script.js 
